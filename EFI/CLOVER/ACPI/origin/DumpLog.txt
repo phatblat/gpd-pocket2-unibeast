@@ -1,144 +1,144 @@
-24:909  5:243  Found UEFI Acpi 2.0 RSDP at 8CA91000
-24:921  0:012  Saving ACPI tables from RSDP 8CA91000 to EFI\CLOVER\ACPI\origin ...
-24:934  0:012   8CA91000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
-25:043  0:108    (Xsdt: 8CA910C0, Rsdt: 8CA91028)
-25:056  0:012    8CA910C0: 'XSDT', 'A M I', Rev: 1, Len: 252 -> XSDT.aml
-25:149  0:093    8CA91028: 'RSDT', 'A M I', Rev: 1, Len: 144 -> RSDT.aml
-25:253  0:103    Tables in Xsdt: 27
-25:269  0:016    0. 8CAB94A8: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
-25:375  0:105        (Dsdt: 8CA91248, Facs: 8CB44F00, XDsdt: 8CA91248, XFacs: 0)
-25:420  0:044        8CA91248: 'DSDT', 'A M I', Rev: 2, Len: 164446 -> DSDT.aml
-25:534  0:114        8CB44F00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
-25:621  0:087    1. 8CAB95C0: 'APIC', 'A M I', Rev: 3, Len: 132 -> APIC.aml
-25:727  0:106    2. 8CAB9648: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
-25:829  0:101    3. 8CAB9690: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
-25:930  0:101    4. 8CAB9730: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
-26:029  0:098    5. 8CAB9770: 'SSDT', 'SataTabl', Rev: 1, Len: 857 -> SSDT-0-SataTabl.aml
-26:127  0:097    6. 8CAB9AD0: 'SSDT', 'DptfTabl', Rev: 2, Len: 42017 -> SSDT-1-DptfTabl.aml
-26:222  0:095    7. 8CAC3EF8: 'SSDT', 'GddvDumm', Rev: 2, Len: 2458 -> SSDT-2-GddvDumm.aml
-26:320  0:098    8. 8CAC4898: 'MSDM', 'A M I', Rev: 3, Len: 85 -> MSDM.aml
-26:414  0:093    9. 8CAC48F0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12642 -> SSDT-3-SaSsdt.aml
-26:513  0:098    10. 8CAC7A58: 'HPET', 'KBL-ULT', Rev: 1, Len: 56 -> HPET.aml
-26:606  0:093    11. 8CAC7A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306 -> SSDT-4-Ther_Rvp.aml
-26:707  0:100    12. 8CAC8398: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2013 -> SSDT-5-xh_rvp03.aml
-26:798  0:090    13. 8CAC8B78: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
-26:894  0:096    14. 8CAC8BC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
-26:990  0:095        * 8CA45098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1287  53 53 44 54 07 05 00 00 02 57 50 6D 52 65 66 00 Internal length = 1287 -> SSDT-x6_0-Cpu0Ist.aml
-27:296  0:306        * 8C40D018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x6_1-ApIst.aml
-28:381  1:084        * 8C40E698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x6_2-Cpu0Cst.aml
-28:699  0:318        * 8C40C018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x6_3-ApCst.aml
-29:003  0:303        * 8CA45718: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x6_4-Cpu0Hwp.aml
-29:308  0:304        * 8C40C418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x6_5-ApHwp.aml
-29:610  0:301        * 8C40E018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x6_6-HwpLvt.aml
-29:921  0:311  
-29:934  0:012    15. 8CACA370: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148 -> LPIT.aml
-30:026  0:092    16. 8CACA408: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-7-HdaDsp.aml
-30:122  0:095    17. 8CACA550: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-8-sensrhub.aml
-30:215  0:093    18. 8CACA7F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290 -> SSDT-9-PtidDevc.aml
-30:312  0:096    19. 8CACD7F8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303 -> SSDT-10-TbtTypeC.aml
-30:403  0:090    20. 8CACDD10: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
-30:494  0:091    21. 8CACDD48: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
-30:584  0:090    22. 8CACDDA0: 'DMAR', 'EDK2', Rev: 1, Len: 312 -> DMAR.aml
-30:676  0:091    23. 8CACDED8: 'NHLT', 'EDK2', Rev: 0, Len: 45 -> NHLT.aml
-30:768  0:092    24. 8CACDF08: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
-30:859  0:090    25. 8CACDF40: 'TPM2', 'A M I', Rev: 3, Len: 52 -> TPM2.aml
-30:956  0:096    26. 8CACDF78: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
-31:052  0:096    Tables in Rsdt: 27
-31:067  0:014    0. 8CA911C0: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
-31:158  0:091        (Dsdt: 8CA91248, Facs: 8CB44EC0)
-31:184  0:026        8CA91248: 'DSDT', 'A M I', Rev: 2, Len: 164446
-31:226  0:042        8CB44EC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
-31:304  0:078    1. 8CAB95C0: 'APIC', 'A M I', Rev: 3, Len: 132
-31:343  0:038    2. 8CAB9648: 'FPDT', 'A M I', Rev: 1, Len: 68
-31:388  0:045    3. 8CAB9690: 'FIDT', 'A M I', Rev: 1, Len: 156
-31:432  0:043    4. 8CAB9730: 'MCFG', 'A M I', Rev: 1, Len: 60
-31:470  0:038    5. 8CAB9770: 'SSDT', 'SataTabl', Rev: 1, Len: 857
-31:508  0:038    6. 8CAB9AD0: 'SSDT', 'DptfTabl', Rev: 2, Len: 42017
-31:548  0:039    7. 8CAC3EF8: 'SSDT', 'GddvDumm', Rev: 2, Len: 2458
-31:586  0:038    8. 8CAC4898: 'MSDM', 'A M I', Rev: 3, Len: 85
-31:625  0:038    9. 8CAC48F0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12642
-31:669  0:044    10. 8CAC7A58: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
-31:709  0:040    11. 8CAC7A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306
-31:747  0:038    12. 8CAC8398: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2013
-31:786  0:038    13. 8CAC8B78: 'UEFI', 'A M I', Rev: 1, Len: 66
-31:829  0:043    14. 8CAC8BC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
-32:653  0:824    15. 8CACA370: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
-32:691  0:037    16. 8CACA408: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
-32:729  0:038    17. 8CACA550: 'SSDT', 'sensrhub', Rev: 2, Len: 671
-32:774  0:044    18. 8CACA7F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
-32:813  0:039    19. 8CACD7F8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
-32:851  0:038    20. 8CACDD10: 'DBGP', '', Rev: 1, Len: 52
-32:890  0:038    21. 8CACDD48: 'DBG2', '', Rev: 0, Len: 84
-32:933  0:043    22. 8CACDDA0: 'DMAR', 'EDK2', Rev: 1, Len: 312
-32:973  0:039    23. 8CACDED8: 'NHLT', 'EDK2', Rev: 0, Len: 45
-33:012  0:038    24. 8CACDF08: 'BGRT', 'A M I', Rev: 1, Len: 56
-33:050  0:038    25. 8CACDF40: 'TPM2', 'A M I', Rev: 3, Len: 52
-33:094  0:043    26. 8CACDF78: 'WSMT', 'A M I', Rev: 1, Len: 40
-33:133  0:039  Found UEFI Acpi 1.0 RSDP at 8CA91000
-33:146  0:012  Printing ACPI tables from RSDP 8CA91000 ...
-33:159  0:012   8CA91000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-33:215  0:056    (Xsdt: 8CA910C0, Rsdt: 8CA91028)
-33:228  0:012    8CA910C0: 'XSDT', 'A M I', Rev: 1, Len: 252
-33:268  0:039    8CA91028: 'RSDT', 'A M I', Rev: 1, Len: 144
-33:306  0:038    Tables in Xsdt: 27
-33:324  0:018    0. 8CAB94A8: 'FACP', 'A M I', Rev: 6, Len: 276
-33:363  0:038        (Dsdt: 8CA91248, Facs: 8CB44F00, XDsdt: 8CA91248, XFacs: 0)
-33:401  0:038        8CA91248: 'DSDT', 'A M I', Rev: 2, Len: 164446
-33:444  0:043        8CB44F00: 'FACS', Ver: 2, Len: 64
-33:475  0:030    1. 8CAB95C0: 'APIC', 'A M I', Rev: 3, Len: 132
-33:513  0:038    2. 8CAB9648: 'FPDT', 'A M I', Rev: 1, Len: 68
-33:551  0:038    3. 8CAB9690: 'FIDT', 'A M I', Rev: 1, Len: 156
-33:591  0:039    4. 8CAB9730: 'MCFG', 'A M I', Rev: 1, Len: 60
-33:635  0:044    5. 8CAB9770: 'SSDT', 'SataTabl', Rev: 1, Len: 857
-33:674  0:038    6. 8CAB9AD0: 'SSDT', 'DptfTabl', Rev: 2, Len: 42017
-33:712  0:038    7. 8CAC3EF8: 'SSDT', 'GddvDumm', Rev: 2, Len: 2458
-33:752  0:039    8. 8CAC4898: 'MSDM', 'A M I', Rev: 3, Len: 85
-33:795  0:043    9. 8CAC48F0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12642
-33:834  0:038    10. 8CAC7A58: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
-33:872  0:037    11. 8CAC7A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306
-33:911  0:038    12. 8CAC8398: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2013
-33:955  0:044    13. 8CAC8B78: 'UEFI', 'A M I', Rev: 1, Len: 66
-33:993  0:038    14. 8CAC8BC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
-34:031  0:038    15. 8CACA370: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
-34:076  0:044    16. 8CACA408: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
-34:115  0:038    17. 8CACA550: 'SSDT', 'sensrhub', Rev: 2, Len: 671
-34:153  0:037    18. 8CACA7F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
-34:191  0:038    19. 8CACD7F8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
-34:236  0:045    20. 8CACDD10: 'DBGP', '', Rev: 1, Len: 52
-34:275  0:038    21. 8CACDD48: 'DBG2', '', Rev: 0, Len: 84
-34:313  0:038    22. 8CACDDA0: 'DMAR', 'EDK2', Rev: 1, Len: 312
-34:351  0:038    23. 8CACDED8: 'NHLT', 'EDK2', Rev: 0, Len: 45
-34:396  0:045    24. 8CACDF08: 'BGRT', 'A M I', Rev: 1, Len: 56
-34:435  0:038    25. 8CACDF40: 'TPM2', 'A M I', Rev: 3, Len: 52
-34:473  0:038    26. 8CACDF78: 'WSMT', 'A M I', Rev: 1, Len: 40
-34:511  0:038    Tables in Rsdt: 27
-34:526  0:014    0. 8CA911C0: 'FACP', 'A M I', Rev: 2, Len: 132
-34:570  0:044        (Dsdt: 8CA91248, Facs: 8CB44EC0)
-34:595  0:025        8CA91248: 'DSDT', 'A M I', Rev: 2, Len: 164446
-34:636  0:041        8CB44EC0: 'FACS', Ver: 0, Len: 64
-34:662  0:025    1. 8CAB95C0: 'APIC', 'A M I', Rev: 3, Len: 132
-34:707  0:044    2. 8CAB9648: 'FPDT', 'A M I', Rev: 1, Len: 68
-34:746  0:038    3. 8CAB9690: 'FIDT', 'A M I', Rev: 1, Len: 156
-34:784  0:038    4. 8CAB9730: 'MCFG', 'A M I', Rev: 1, Len: 60
-34:822  0:038    5. 8CAB9770: 'SSDT', 'SataTabl', Rev: 1, Len: 857
-34:868  0:045    6. 8CAB9AD0: 'SSDT', 'DptfTabl', Rev: 2, Len: 42017
-34:907  0:038    7. 8CAC3EF8: 'SSDT', 'GddvDumm', Rev: 2, Len: 2458
-34:945  0:038    8. 8CAC4898: 'MSDM', 'A M I', Rev: 3, Len: 85
-34:988  0:043    9. 8CAC48F0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12642
-35:027  0:039    10. 8CAC7A58: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
-35:066  0:038    11. 8CAC7A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306
-35:104  0:038    12. 8CAC8398: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2013
-35:148  0:043    13. 8CAC8B78: 'UEFI', 'A M I', Rev: 1, Len: 66
-35:188  0:040    14. 8CAC8BC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
-35:227  0:038    15. 8CACA370: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
-35:265  0:038    16. 8CACA408: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
-35:308  0:043    17. 8CACA550: 'SSDT', 'sensrhub', Rev: 2, Len: 671
-35:348  0:039    18. 8CACA7F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
-35:386  0:038    19. 8CACD7F8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
-35:425  0:038    20. 8CACDD10: 'DBGP', '', Rev: 1, Len: 52
-35:469  0:043    21. 8CACDD48: 'DBG2', '', Rev: 0, Len: 84
-35:508  0:039    22. 8CACDDA0: 'DMAR', 'EDK2', Rev: 1, Len: 312
-35:547  0:038    23. 8CACDED8: 'NHLT', 'EDK2', Rev: 0, Len: 45
-35:590  0:043    24. 8CACDF08: 'BGRT', 'A M I', Rev: 1, Len: 56
-35:629  0:038    25. 8CACDF40: 'TPM2', 'A M I', Rev: 3, Len: 52
-35:668  0:039    26. 8CACDF78: 'WSMT', 'A M I', Rev: 1, Len: 40
+20:607  3:431  Found UEFI Acpi 2.0 RSDP at 8CA91000
+20:619  0:012  Saving ACPI tables from RSDP 8CA91000 to EFI\CLOVER\ACPI\origin ...
+20:632  0:012   8CA91000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+20:748  0:115    (Xsdt: 8CA910C0, Rsdt: 8CA91028)
+20:761  0:012    8CA910C0: 'XSDT', 'A M I', Rev: 1, Len: 252 -> XSDT.aml
+20:853  0:092    8CA91028: 'RSDT', 'A M I', Rev: 1, Len: 144 -> RSDT.aml
+20:946  0:093    Tables in Xsdt: 27
+20:959  0:012    0. 8CAB94A8: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+21:052  0:093        (Dsdt: 8CA91248, Facs: 8CB44F00, XDsdt: 8CA91248, XFacs: 0)
+21:091  0:038        8CA91248: 'DSDT', 'A M I', Rev: 2, Len: 164446 -> DSDT.aml
+21:192  0:101        8CB44F00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+25:246  4:053    1. 8CAB95C0: 'APIC', 'A M I', Rev: 3, Len: 132 -> APIC.aml
+25:345  0:098    2. 8CAB9648: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+25:437  0:092    3. 8CAB9690: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+25:530  0:093    4. 8CAB9730: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+25:630  0:099    5. 8CAB9770: 'SSDT', 'SataTabl', Rev: 1, Len: 857 -> SSDT-0-SataTabl.aml
+25:727  0:096    6. 8CAB9AD0: 'SSDT', 'DptfTabl', Rev: 2, Len: 42017 -> SSDT-1-DptfTabl.aml
+25:827  0:100    7. 8CAC3EF8: 'SSDT', 'GddvDumm', Rev: 2, Len: 2458 -> SSDT-2-GddvDumm.aml
+25:919  0:092    8. 8CAC4898: 'MSDM', 'A M I', Rev: 3, Len: 85 -> MSDM.aml
+26:012  0:092    9. 8CAC48F0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12642 -> SSDT-3-SaSsdt.aml
+26:105  0:093    10. 8CAC7A58: 'HPET', 'KBL-ULT', Rev: 1, Len: 56 -> HPET.aml
+26:198  0:092    11. 8CAC7A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306 -> SSDT-4-Ther_Rvp.aml
+26:301  0:103    12. 8CAC8398: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2013 -> SSDT-5-xh_rvp03.aml
+26:399  0:098    13. 8CAC8B78: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+26:495  0:096    14. 8CAC8BC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+26:587  0:092        * 8CA45098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1287  53 53 44 54 07 05 00 00 02 57 50 6D 52 65 66 00 Internal length = 1287 -> SSDT-x6_0-Cpu0Ist.aml
+26:894  0:306        * 8C40D018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x6_1-ApIst.aml
+27:214  0:320        * 8C40E698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x6_2-Cpu0Cst.aml
+27:533  0:318        * 8C40C018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x6_3-ApCst.aml
+27:838  0:305        * 8CA45718: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x6_4-Cpu0Hwp.aml
+28:148  0:309        * 8C40C418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x6_5-ApHwp.aml
+28:451  0:302        * 8C40E018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x6_6-HwpLvt.aml
+28:753  0:302  
+28:767  0:013    15. 8CACA370: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+28:858  0:090    16. 8CACA408: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-7-HdaDsp.aml
+29:744  0:886    17. 8CACA550: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-8-sensrhub.aml
+29:834  0:089    18. 8CACA7F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290 -> SSDT-9-PtidDevc.aml
+29:927  0:092    19. 8CACD7F8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303 -> SSDT-10-TbtTypeC.aml
+30:018  0:091    20. 8CACDD10: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+30:109  0:091    21. 8CACDD48: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+30:201  0:091    22. 8CACDDA0: 'DMAR', 'EDK2', Rev: 1, Len: 312 -> DMAR.aml
+30:299  0:097    23. 8CACDED8: 'NHLT', 'EDK2', Rev: 0, Len: 45 -> NHLT.aml
+30:389  0:090    24. 8CACDF08: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+30:481  0:091    25. 8CACDF40: 'TPM2', 'A M I', Rev: 3, Len: 52 -> TPM2.aml
+30:579  0:097    26. 8CACDF78: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+30:671  0:091    Tables in Rsdt: 27
+30:684  0:013    0. 8CA911C0: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+30:775  0:091        (Dsdt: 8CA91248, Facs: 8CB44EC0)
+30:801  0:025        8CA91248: 'DSDT', 'A M I', Rev: 2, Len: 164446
+30:848  0:046        8CB44EC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+30:926  0:078    1. 8CAB95C0: 'APIC', 'A M I', Rev: 3, Len: 132
+30:964  0:038    2. 8CAB9648: 'FPDT', 'A M I', Rev: 1, Len: 68
+31:003  0:038    3. 8CAB9690: 'FIDT', 'A M I', Rev: 1, Len: 156
+31:041  0:038    4. 8CAB9730: 'MCFG', 'A M I', Rev: 1, Len: 60
+31:091  0:049    5. 8CAB9770: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+31:129  0:038    6. 8CAB9AD0: 'SSDT', 'DptfTabl', Rev: 2, Len: 42017
+31:174  0:044    7. 8CAC3EF8: 'SSDT', 'GddvDumm', Rev: 2, Len: 2458
+31:212  0:038    8. 8CAC4898: 'MSDM', 'A M I', Rev: 3, Len: 85
+31:252  0:039    9. 8CAC48F0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12642
+31:290  0:038    10. 8CAC7A58: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+31:334  0:043    11. 8CAC7A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306
+31:373  0:038    12. 8CAC8398: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2013
+31:412  0:039    13. 8CAC8B78: 'UEFI', 'A M I', Rev: 1, Len: 66
+31:451  0:038    14. 8CAC8BC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+31:495  0:044    15. 8CACA370: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+31:533  0:038    16. 8CACA408: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+31:573  0:039    17. 8CACA550: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+31:617  0:043    18. 8CACA7F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+31:655  0:038    19. 8CACD7F8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+31:694  0:038    20. 8CACDD10: 'DBGP', '', Rev: 1, Len: 52
+31:733  0:039    21. 8CACDD48: 'DBG2', '', Rev: 0, Len: 84
+31:777  0:043    22. 8CACDDA0: 'DMAR', 'EDK2', Rev: 1, Len: 312
+31:816  0:038    23. 8CACDED8: 'NHLT', 'EDK2', Rev: 0, Len: 45
+31:854  0:038    24. 8CACDF08: 'BGRT', 'A M I', Rev: 1, Len: 56
+31:894  0:039    25. 8CACDF40: 'TPM2', 'A M I', Rev: 3, Len: 52
+31:937  0:043    26. 8CACDF78: 'WSMT', 'A M I', Rev: 1, Len: 40
+31:976  0:038  Found UEFI Acpi 1.0 RSDP at 8CA91000
+31:989  0:012  Printing ACPI tables from RSDP 8CA91000 ...
+32:001  0:012   8CA91000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+32:060  0:058    (Xsdt: 8CA910C0, Rsdt: 8CA91028)
+32:073  0:013    8CA910C0: 'XSDT', 'A M I', Rev: 1, Len: 252
+32:111  0:038    8CA91028: 'RSDT', 'A M I', Rev: 1, Len: 144
+32:149  0:038    Tables in Xsdt: 27
+32:162  0:012    0. 8CAB94A8: 'FACP', 'A M I', Rev: 6, Len: 276
+32:206  0:044        (Dsdt: 8CA91248, Facs: 8CB44F00, XDsdt: 8CA91248, XFacs: 0)
+32:245  0:038        8CA91248: 'DSDT', 'A M I', Rev: 2, Len: 164446
+32:287  0:042        8CB44F00: 'FACS', Ver: 2, Len: 64
+32:312  0:025    1. 8CAB95C0: 'APIC', 'A M I', Rev: 3, Len: 132
+32:358  0:045    2. 8CAB9648: 'FPDT', 'A M I', Rev: 1, Len: 68
+32:396  0:038    3. 8CAB9690: 'FIDT', 'A M I', Rev: 1, Len: 156
+32:435  0:038    4. 8CAB9730: 'MCFG', 'A M I', Rev: 1, Len: 60
+32:473  0:038    5. 8CAB9770: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+32:518  0:044    6. 8CAB9AD0: 'SSDT', 'DptfTabl', Rev: 2, Len: 42017
+32:556  0:038    7. 8CAC3EF8: 'SSDT', 'GddvDumm', Rev: 2, Len: 2458
+32:595  0:038    8. 8CAC4898: 'MSDM', 'A M I', Rev: 3, Len: 85
+32:634  0:039    9. 8CAC48F0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12642
+32:679  0:044    10. 8CAC7A58: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+32:717  0:038    11. 8CAC7A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306
+32:756  0:038    12. 8CAC8398: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2013
+32:800  0:043    13. 8CAC8B78: 'UEFI', 'A M I', Rev: 1, Len: 66
+32:840  0:039    14. 8CAC8BC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+32:878  0:038    15. 8CACA370: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+32:916  0:038    16. 8CACA408: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+32:960  0:043    17. 8CACA550: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+33:000  0:039    18. 8CACA7F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+33:038  0:038    19. 8CACD7F8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+33:077  0:038    20. 8CACDD10: 'DBGP', '', Rev: 1, Len: 52
+33:120  0:043    21. 8CACDD48: 'DBG2', '', Rev: 0, Len: 84
+33:160  0:039    22. 8CACDDA0: 'DMAR', 'EDK2', Rev: 1, Len: 312
+33:199  0:038    23. 8CACDED8: 'NHLT', 'EDK2', Rev: 0, Len: 45
+33:238  0:038    24. 8CACDF08: 'BGRT', 'A M I', Rev: 1, Len: 56
+33:281  0:043    25. 8CACDF40: 'TPM2', 'A M I', Rev: 3, Len: 52
+33:321  0:039    26. 8CACDF78: 'WSMT', 'A M I', Rev: 1, Len: 40
+33:360  0:038    Tables in Rsdt: 27
+33:372  0:012    0. 8CA911C0: 'FACP', 'A M I', Rev: 2, Len: 132
+33:416  0:043        (Dsdt: 8CA91248, Facs: 8CB44EC0)
+33:441  0:025        8CA91248: 'DSDT', 'A M I', Rev: 2, Len: 164446
+34:266  0:825        8CB44EC0: 'FACS', Ver: 0, Len: 64
+34:292  0:025    1. 8CAB95C0: 'APIC', 'A M I', Rev: 3, Len: 132
+34:336  0:044    2. 8CAB9648: 'FPDT', 'A M I', Rev: 1, Len: 68
+34:375  0:038    3. 8CAB9690: 'FIDT', 'A M I', Rev: 1, Len: 156
+34:414  0:039    4. 8CAB9730: 'MCFG', 'A M I', Rev: 1, Len: 60
+34:452  0:038    5. 8CAB9770: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+34:496  0:043    6. 8CAB9AD0: 'SSDT', 'DptfTabl', Rev: 2, Len: 42017
+34:534  0:038    7. 8CAC3EF8: 'SSDT', 'GddvDumm', Rev: 2, Len: 2458
+34:574  0:039    8. 8CAC4898: 'MSDM', 'A M I', Rev: 3, Len: 85
+34:612  0:038    9. 8CAC48F0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12642
+34:658  0:045    10. 8CAC7A58: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+34:696  0:038    11. 8CAC7A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306
+34:736  0:039    12. 8CAC8398: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2013
+34:774  0:038    13. 8CAC8B78: 'UEFI', 'A M I', Rev: 1, Len: 66
+34:818  0:043    14. 8CAC8BC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+34:856  0:038    15. 8CACA370: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+34:896  0:039    16. 8CACA408: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+34:934  0:038    17. 8CACA550: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+34:978  0:043    18. 8CACA7F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+35:017  0:038    19. 8CACD7F8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+35:057  0:039    20. 8CACDD10: 'DBGP', '', Rev: 1, Len: 52
+35:100  0:043    21. 8CACDD48: 'DBG2', '', Rev: 0, Len: 84
+35:139  0:038    22. 8CACDDA0: 'DMAR', 'EDK2', Rev: 1, Len: 312
+35:177  0:038    23. 8CACDED8: 'NHLT', 'EDK2', Rev: 0, Len: 45
+35:217  0:039    24. 8CACDF08: 'BGRT', 'A M I', Rev: 1, Len: 56
+35:261  0:043    25. 8CACDF40: 'TPM2', 'A M I', Rev: 3, Len: 52
+35:299  0:038    26. 8CACDF78: 'WSMT', 'A M I', Rev: 1, Len: 40
