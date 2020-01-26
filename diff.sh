@@ -4,4 +4,5 @@
 # Uses the ksdiff CLI interface for Kaleidoscope.
 #
 
+ksdiff EFI /Volumes/EFI/EFI
 ksdiff EFI/CLOVER/config.plist /Volumes/EFI/EFI/CLOVER/config.plist
