@@ -372,13 +372,19 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>BoardSerialNumber</key>
+		<string>D25552108QXF8YLAD</string>
 		<key>ProductName</key>
 		<string>iMac14,2</string>
+		<key>SerialNumber</key>
+		<string>D25QW1Y3F8JC</string>
 		<key>Trust</key>
 		<false/>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>C5827E6E-4818-400D-9676-28D03D49B9DE</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
