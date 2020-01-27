@@ -217,7 +217,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -v -x</string>
+		<string>-disablegfxfirmware -v -x dart=0 lilucpu=8 nv_disable=1 -cdfon</string>
 		<key>Debug</key>
 		<true/>
 		<key>DefaultVolume</key>
